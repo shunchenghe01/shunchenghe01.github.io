@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Css实现便签样式</title>
+      <link href="/2019/04/22/Css%E5%AE%9E%E7%8E%B0%E4%BE%BF%E7%AD%BE%E6%A0%B7%E5%BC%8F/"/>
+      <url>/2019/04/22/Css%E5%AE%9E%E7%8E%B0%E4%BE%BF%E7%AD%BE%E6%A0%B7%E5%BC%8F/</url>
+      
+        <content type="html"><![CDATA[<p>简单实现便签样式效果。</p><fancybox><br><img src="https://ws1.sinaimg.cn/large/006tNc79gy1g2bunclcswj30g60eqt9d.jpg" alt=""><br></fancybox><a id="more"></a><h2 id="Html"><a href="#Html" class="headerlink" title="Html"></a>Html</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"note"</span>&gt;</span></span><br><span class="line">便签</span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="Css"><a href="#Css" class="headerlink" title="Css"></a>Css</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">  <span class="selector-id">#note</span>&#123;</span><br><span class="line">    <span class="attribute">position</span>: fixed;</span><br><span class="line">    <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">200px</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">200px</span>;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">linear-gradient</span>(to bottom, #f4f39e, #f5da41); </span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">20px</span>;</span><br><span class="line">    <span class="attribute">margin-left</span>: <span class="number">20px</span>;</span><br><span class="line">    <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">2px</span> <span class="number">10px</span> <span class="number">1px</span> <span class="number">#F6EF97</span>;</span><br><span class="line">    <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">2px</span> <span class="number">10px</span> <span class="number">1px</span> <span class="number">#F6EF97</span>;</span><br><span class="line">    <span class="attribute">text-shadow</span>: <span class="number">0</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#F6EF97</span>;</span><br><span class="line">    <span class="attribute">margin-top</span>: <span class="number">30%</span>;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#note</span><span class="selector-pseudo">:after</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">80px</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">    <span class="attribute">content</span>: <span class="string">" "</span>;</span><br><span class="line">    <span class="attribute">margin-left</span>: -<span class="number">50px</span>;</span><br><span class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="built_in">rgba</span>(200, 200, 200, .8);</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">rgba</span>(254, 254, 254, .6);</span><br><span class="line">    <span class="attribute">box-shadow</span>: <span class="number">0px</span> <span class="number">0</span> <span class="number">3px</span> <span class="built_in">rgba</span>(0, 0, 0, 0.1);</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">rotate</span>(-5deg);</span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">    <span class="attribute">left</span>: <span class="number">50%</span>;</span><br><span class="line">    <span class="attribute">top</span>:-<span class="number">15px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#note</span>&#123;</span><br><span class="line">  <span class="attribute">margin-top</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Css </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Oracle数据库Session锁住解决方案</title>
       <link href="/2019/04/22/Oracle%E6%95%B0%E6%8D%AE%E5%BA%93Session%E9%94%81%E4%BD%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
       <url>/2019/04/22/Oracle%E6%95%B0%E6%8D%AE%E5%BA%93Session%E9%94%81%E4%BD%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
